@@ -104,4 +104,27 @@ main{
 
 /* ========photo gallari2=========== */
 
+/* ====photo gallari 3 start=== */
+
+.photo-gallari-highlight{
+    margin-top: 165px;
+}
+
+.about{
+    display: flex;
+
+}
+
+.match-photo img{
+    width: 567px;
+    height: 427px;
+}
+.about{
+    width: 1050px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    
+}
 
