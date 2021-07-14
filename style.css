@@ -127,4 +127,27 @@ main{
     margin-left: 200px;
     
 }
-
+/* footer part======= */
+.social-link{
+   display: block;
+    margin-left: 490px;   
+}
+.footer{
+    margin-top: 200px;
+   
+}
+.football-logo img{
+    width:400px;
+    height: 110px;
+}
+.social-logo img{
+    width: 32px;
+    height: 32px;
+    margin-left:10px;
+}
+.social-logo{
+    margin-left: 110px;
+}
+.copyright{
+    margin-left: 600px;
+}
