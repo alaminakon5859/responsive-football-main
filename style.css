@@ -1,3 +1,12 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+   
+}
+
+
+
 .bg-color{
     width: 100%;
     background-color:rgb(55, 55, 168);
@@ -133,21 +142,24 @@ main{
     margin-left: 490px;   
 }
 .footer{
-    margin-top: 200px;
+    margin-top: 200px
    
 }
 .football-logo img{
     width:400px;
     height: 110px;
 }
-.social-logo img{
-    width: 32px;
-    height: 32px;
-    margin-left:10px;
-}
+
+
 .social-logo{
-    margin-left: 110px;
+    margin-left: 120px;
 }
-.copyright{
-    margin-left: 600px;
+footer p{
+    text-align: center;
+    margin-left: 300px;
+}
+
+.logoawasome{
+   
+    margin-right: 15px;
 }
