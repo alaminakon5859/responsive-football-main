@@ -11,8 +11,12 @@ body{
     width: 100%;
     background-color:rgb(55, 55, 168);
     margin-bottom: 50px;
+    transition: width 5s;
 }
-
+.bg-color:hover{
+    background-image: linear-gradient(orange,blue);
+    width: 59%;
+}
 
 nav{
     display: flex;
@@ -71,6 +75,12 @@ nav a{
     width: 168px;
     height: 44px;
     border: none;
+    
+}
+.button:hover{
+    background-image:linear-gradient(blue,orange);
+    height: 50px;
+    border-radius: 10px;
     
 }
 .button a{
@@ -162,4 +172,5 @@ footer p{
 .logoawasome{
    
     margin-right: 15px;
+    color:black;
 }
