@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 
    
 }
@@ -173,4 +174,60 @@ footer p{
    
     margin-right: 15px;
     color:black;
+}
+
+/* ======media qyarise========== */
+
+/* ===============
+============mobile  divice====== */
+
+@media only screen and ( max-width:668px) {
+    .bg-color{
+        width: 20%;
+    }
+    .banner-item{
+        width: 300px;
+        display: grid;
+       grid-template-columns:repeat(1,1fr);
+       justify-content: center;
+       margin-left: ;
+      
+       }
+       .banner-item img {
+           align-items: center;
+           margin-left: 600px;
+       }
+       .players{
+           display: grid;
+           grid-template-columns: repeat(1,1fr);
+           justify-content: center;
+       }
+       .about{
+           display: grid;
+           grid-template-columns: repeat(1,1fr);
+           justify-content: center;
+       }
+       nav{
+           width: 300px;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content:end;
+}
+
+}
+@media only screen and(min-width:668px) and (max-width:992px) {
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+      margin-left: 0px;
+      
+        
+        
+       
+    }
+    .about{
+
+    }
+    
 }
